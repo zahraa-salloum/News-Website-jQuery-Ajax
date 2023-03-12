@@ -43,3 +43,28 @@ nav {
     background: rgba(255, 255, 255, 0.1);
     color: rgb(222, 222, 222);
   }
+
+  .container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin: 10px auto;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding-top: 20px;
+    
+  }
+
+  hr{
+    width: 100%;
+  }
